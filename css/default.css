@@ -57,7 +57,15 @@ body {
   display: grid;
   place-items: center;
 
+  text-align: center;
+
+  margin-inline: 4vw;
+
   animation: float 6s ease-in-out infinite;
+}
+
+.content img {
+  width: 100%;
 }
 
 @keyframes float {
